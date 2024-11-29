@@ -14,9 +14,9 @@
 To use MLM.py, you need to have Python 3.x installed. The script relies on several third-party packages, which can be installed using `pip`.
 
 Clone the repository:
-    ```bash
-    git clone git@github.com:Naclist/MLM.git
-    ```
+```bash
+git clone git@github.com:Naclist/MLM.git
+```
 or
 ```bash
 git clone https://github.com/Naclist/MLM.git
