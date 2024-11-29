@@ -6,8 +6,7 @@
 2. [Dependencies](#dependencies)
 3. [Usage](#usage)
     - [MLM Usage](#mlm)
-    - [Treetime Mugration Usage](#treetime_mugration)
-
+    - [Treetime Mugration Usage](#treeTime-migration-inference)
 ---
 
 ## Installation
@@ -47,8 +46,9 @@ Install the dependencies with:
 ```bash
 pip install biopython pandas treetime numpy
 ```
+---
 ## Usage
-
+---
 ### MLM
 `MLM.py` is used to process a Newick format tree, read a trait file (processed from TreeTime's `.nex` file), and a confidence matrix generated from TreeTime's migration model. It calculates node weights, assigns geographical regions to nodes, and computes spread probabilities based on the tree structure and region-specific data.
 
@@ -67,7 +67,7 @@ This will process the tree, trait, and confidence matrix to compute the node wei
 
 ---
 
-### TreeTime mugration
+### TreeTime Migration Inference
 TreeTime is used to perform migration analysis, and its output is required for MLM.py to function. Here’s how to use TreeTime to generate the necessary files.
 1. Run TreeTime Migration:
 Run TreeTime to generate the migration output. This includes the `.nex` file (which is later parsed by `parse_annotated_nexus.py`) and the confidence matrix CSV file.
