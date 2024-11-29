@@ -5,8 +5,8 @@
 1. [Installation](#installation)
 2. [Dependencies](#dependencies)
 3. [Usage](#usage)
-    - [MLM Usage](#MLM)
-    - [Treetime Mugration Usage](#treetime-mugration)
+    - [MLM Usage](#mlm)
+    - [Treetime Mugration Usage](#treetime_mugration)
 
 ---
 
