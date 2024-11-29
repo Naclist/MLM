@@ -82,3 +82,4 @@ Example:
 python parse_annotated_nexus.py time_meta.nex
 ```
 This will generate the `trait.meta` file that you can then use as input for `MLM.py`.
+
